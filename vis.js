@@ -18,18 +18,18 @@ titles.forEach((title) => {
 });
 
 //container
-let svg = document.querySelector("svg");
-console.log(svg);
+let svg2 = document.querySelector(".a2-svg-art");
+console.log(svg2);
 
 //create element
 const svgNS = "http://www.w3.org/2000/svg";
-const rect = document.createElementNS(svgNS, "rect");
 
-//add that element into the container
-rect.setAttribute("x", 100);
-rect.setAttribute("y", 100);
-rect.setAttribute("width", 100);
-rect.setAttribute("height", 100);
-rect.setAttribute("fill", "blue");
+const path = document.createElementNS(svgNS, "path");
 
-svg.appendChild(rect);
+path.setAttribute(
+  "d",
+  "M 40,0 C -20,70 0,100 47,95 L 300,0 L 60,50 C 42,53 25,40 40,0",
+);
+path.setAttribute("fill", "red");
+
+svg2.appendChild(path);
