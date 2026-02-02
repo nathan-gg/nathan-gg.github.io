@@ -1,3 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 251, 246);
+}
+
+p {
+  max-width: 40rem;
+}
 .italics {
-    font-style: italic;
+  font-style: italic;
+}
+
+.black-text {
+  color: black;
+}
+
+.current-page {
+  color: rgb(140, 57, 228);
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /* width: 100vw; */
+  /* background-color: red; */
+  align-items: center;
+  align-content: center;
+  border-bottom: solid;
+  border-width: 2px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-color: rgb(196, 196, 196);
+  color: rgb(104, 104, 104);
+}
+
+.navbar a {
+  color: rgb(104, 104, 104);
+  text-decoration: none;
+}
+
+.nav-buttons :not(:last-child) {
+  margin-right: 2rem;
+}
+
+.nav-buttons :hover,
+.nav-buttons :focus {
+  color: rgb(140, 57, 228);
+}
+
+.main-page {
+  padding-top: 4rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.main-page * {
+  width: 60%;
+  /* background-color: green; */
+}
+
+.image-container {
+}
+
+.feature {
+  /* background-image: url("assets/pfp.webp"); */
+  width: 100%;
+  /* background-color: orange; */
+  height: fit-content;
+}
+
+.feature img {
+  object-fit: cover;
+  /* height: fit-content; */
+  width: 100%;
+  /* background-color: red; */
+}
+.feature-caption {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* align-items: start; */
+
+  /* background-color: pink; */
+  width: 100%;
+}
+
+.feature-caption * {
+  width: fit-content;
+  padding-top: 0;
+  margin-top: 0;
 }
