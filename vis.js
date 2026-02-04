@@ -1,22 +1,3 @@
-let titles = document.querySelectorAll(".titles");
-console.log(titles);
-
-// titles.forEach((title) => {
-//   title.style.color = "blue";
-// });
-
-// titles.forEach((title) => {
-//   title.addEventListener("click", () => {
-//     alert("hello");
-//   });
-// });
-
-titles.forEach((title) => {
-  title.addEventListener("click", () => {
-    title.style.color = "blue";
-  });
-});
-
 //container
 let svg2 = document.querySelector(".a2-svg-art");
 console.log(svg2);
