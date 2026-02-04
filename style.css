@@ -50,9 +50,9 @@ footer section {
   color: rgb(255, 227, 157);
 }
 
-.current-page {
+/* .current-page {
   color: rgb(140, 57, 228);
-}
+} */
 
 .navbar {
   display: flex;
@@ -80,7 +80,7 @@ footer section {
 
 .nav-buttons :hover,
 .nav-buttons :focus {
-  color: rgb(140, 57, 228);
+  color: rgb(255, 132, 39);
 }
 
 .main-page {
