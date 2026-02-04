@@ -186,6 +186,7 @@ footer section {
   border-color: rgb(255, 227, 157);
   border-width: 2px;
   margin-bottom: 4rem;
+  max-height: 100vh;
 }
 
 .viz-box * {
