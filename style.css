@@ -221,7 +221,10 @@ footer section {
   justify-content: center;
   align-items: center;
   align-content: center;
+  width: 1000;
+  height: 500;
   padding: 2rem;
+  background-color: white;
 }
 
 .viz-svg {
@@ -244,7 +247,7 @@ footer section {
   width: 100vw;
   height: 100vh;
   max-width: 1000px;
-  max-height: 700px;
+  max-height: 500px;
 }
 #a3-v1-q2 {
   width: 100vw;
